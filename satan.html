@@ -1,0 +1,490 @@
+<!doctype html>
+<html>
+  
+
+
+
+<head>
+  <body style="background-color:rgb(0, 0, 12);">
+  <h1 class="styl-head"></h1>
+  <style>
+      .styl-head {
+          background-color: rgb(160, 35, 233);
+          padding: 23px;
+          position: relative;
+          top: 60.4px;
+      }
+  </style>
+
+  <h3 class="styl-head3">Ch 1 &gt; The Fallen Sword</h3>
+
+  <style>
+      .styl-head3 {
+          color: white;
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          text-align: center;
+          font-size: 21.6px;
+          position: relative;
+          top: 71.9px;
+          font-weight: 900;
+      }
+  </style>
+
+  <h4 class="styl-head4">Read the full novel   <a href="#" class="st-link"> The World In Ruins</a></h4>
+
+  <style>
+      .styl-head4 {
+          color: rgb(248, 165, 165);
+          text-align: center;
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          position: relative;
+          top: 49.83px;
+          font-size: 11.76px;
+      }
+
+      .st-link {
+          text-decoration: none;
+          font-weight: bold;
+      }
+  </style>
+</head>
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<ul class="wrapper">
+  <li class="icon facebook">
+      <span class="tooltip">Facebook</span>
+      <span> <a href="https://www.facebook.com/indranil.mahanty.79/" class="fbook" target="_blank"><i class="fab fa-facebook-f"></i></a></span>
+  </li>
+
+  <li class="icon twitter">
+      <span class="tooltip">Twitter</span>
+      <span><i class="fab fa-twitter"></i></span>
+  </li>
+
+  <li class="icon instagram">
+      <span class="tooltip">Instagram</span>
+      <span><a href="https://www.instagram.com/el__freezy/" class="insta" target="_blank"><i class="fab fa-instagram"></i></a></span>
+  </li>
+
+  <li class="icon pinterest">
+      <span class="tooltip">Pinterest</span>
+      <span><a href="https://pin.it/6AUB4NR" class="pin" target="_blank"><i class="fab fa-pinterest-p"></i></a></span>
+  </li>
+
+  <li class="icon telegram">
+      <span class="tooltip">Telegram</span>
+      <span><a href="https://t.me/tempestio" class="tele" target="_blank"></a><i class="fab fa-telegram"></i></a></span>
+  </li>
+</ul>
+
+<style>
+  
+  @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+  * {
+      margin: 29.7px 0px;
+      box-sizing: border-box;
+      text-align: center;
+  }
+
+  *:focus,
+  *:active {
+      outline:none!important;
+      -webkit-tap-highlight-color: transparent;
+  }
+
+  html,
+  body {
+      display: list-item;
+      height: 100%;
+      width: 100%;
+      font-family: "Poppins", sans-serif;
+  }
+
+  .wrapper {
+      display: inline-flex;
+      list-style: none;
+  }
+
+  .wrapper .icon {
+      position: relative;
+      background: #ffffff;
+      border-radius: 90%;
+      padding: 0px 0px;
+      margin: 7.87px;
+      width: 39px;
+      height: 36px;
+      font-size: 18.8px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+      transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .wrapper .tooltip {
+      position: absolute;
+      top: 0;
+      font-size: 14px;
+      background: #ffffff;
+      color: #ffffff;
+      padding: 5px 8px;
+      border-radius: 5px;
+      box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+      opacity: 0;
+      pointer-events: none;
+      transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .wrapper .tooltip::before {
+      position: absolute;
+      content: "";
+      height: 8px;
+      width: 8px;
+      background: #ffffff;
+      bottom: -3px;
+      left: 50%;
+      transform: translate(-50%) rotate(45deg);
+      transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .wrapper .icon:hover .tooltip {
+      top: -45px;
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+  }
+
+  .wrapper .icon:hover span,
+  .wrapper .icon:hover .tooltip {
+      text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  .wrapper .facebook:hover,
+  .wrapper .facebook:hover .tooltip,
+  .wrapper .facebook:hover .tooltip::before {
+      background: #1877F2;
+      color: #ffffff;
+  }
+
+  .wrapper .twitter:hover,
+  .wrapper .twitter:hover .tooltip,
+  .wrapper .twitter:hover .tooltip::before {
+      background: #1DA1F2;
+      color: #ffffff;
+  }
+
+  .wrapper .instagram:hover,
+  .wrapper .instagram:hover .tooltip,
+  .wrapper .instagram:hover .tooltip::before {
+      background: #E4405F;
+      color: #ffffff;
+  }
+
+  .wrapper .pinterest:hover,
+  .wrapper .pinterest:hover .tooltip,
+  .wrapper .pinterest:hover .tooltip::before {
+      background: #CD201F;
+      color: #ffffff;
+  }
+
+  .wrapper .telegram:hover,
+  .wrapper .telegram:hover .tooltip,
+  .wrapper .telegram:hover .tooltip::before {
+      background: #1877F2;
+      color: #ffffff;
+  }
+</style>
+
+<h6 class="st-h6"><a href="#" class="st-a" >Satan Scans </a> &gt <a href="#" class="st-a"> The World in Ruins</a> &gt <a href="#" class="st-a">Ch 1 The Fallen Sword</a></h6>
+
+
+<style>
+  .st-h6{
+    color:white;
+font-family
+  }
+  .st-a{
+    
+    text-decoration: none;
+   
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
